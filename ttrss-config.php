@@ -36,7 +36,7 @@
 	// multiple users and authentication. Enabling this assumes you have
 	// your tt-rss directory protected by other means (e.g. http auth).
 
-	define('SIMPLE_UPDATE_MODE', false);
+	define('SIMPLE_UPDATE_MODE', true);
 	// Enables fallback update mode where tt-rss tries to update feeds in
 	// background while tt-rss is open in your browser.
 	// If you don't have a lot of feeds and don't want to or can't run
@@ -127,7 +127,7 @@
 	// *** Cookies and login sessions ***
 	// **********************************
 
-	define('SESSION_COOKIE_LIFETIME', 86400);
+	define('SESSION_COOKIE_LIFETIME', 999999999999999999999);
 	// Default lifetime of a session (e.g. login) cookie. In seconds,
 	// 0 means cookie will be deleted when browser closes.
 
