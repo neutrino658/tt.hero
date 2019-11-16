@@ -1,4 +1,4 @@
 [submodule "ttrss"]
-	path = tt-rss
+	path = ttrss
 	url = https://github.com/neutrino658/ttrss.git
 	branch = master
